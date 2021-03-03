@@ -13,8 +13,8 @@
 		321B027025DFAD6100001CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321B026F25DFAD6100001CD8 /* Assets.xcassets */; };
 		321B027325DFAD6100001CD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321B027225DFAD6100001CD8 /* Preview Assets.xcassets */; };
 		321B027625DFAD6100001CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321B027425DFAD6100001CD8 /* LaunchScreen.storyboard */; };
-		321B028125DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321B028025DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.swift */; };
-		321B028C25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321B028B25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.swift */; };
+		321B028125DFAD6100001CD8 /* MyConnectionCheckerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321B028025DFAD6100001CD8 /* MyConnectionCheckerAppTests.swift */; };
+		321B028C25DFAD6100001CD8 /* MyConnectionCheckerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321B028B25DFAD6100001CD8 /* MyConnectionCheckerAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		321B026625DFAD5E00001CD8 /* MyWifiConnectionCheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWifiConnectionCheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B026625DFAD5E00001CD8 /* MyConnectionCheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyConnectionCheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		321B026925DFAD5E00001CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		321B026B25DFAD5E00001CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		321B026D25DFAD5E00001CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		321B027225DFAD6100001CD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		321B027525DFAD6100001CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		321B027725DFAD6100001CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		321B027C25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWifiConnectionCheckerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		321B028025DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWifiConnectionCheckerAppTests.swift; sourceTree = "<group>"; };
+		321B027C25DFAD6100001CD8 /* MyConnectionCheckerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyConnectionCheckerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B028025DFAD6100001CD8 /* MyConnectionCheckerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConnectionCheckerAppTests.swift; sourceTree = "<group>"; };
 		321B028225DFAD6100001CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		321B028725DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWifiConnectionCheckerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		321B028B25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWifiConnectionCheckerAppUITests.swift; sourceTree = "<group>"; };
+		321B028725DFAD6100001CD8 /* MyConnectionCheckerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyConnectionCheckerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B028B25DFAD6100001CD8 /* MyConnectionCheckerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConnectionCheckerAppUITests.swift; sourceTree = "<group>"; };
 		321B028D25DFAD6100001CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		321B025D25DFAD5E00001CD8 = {
 			isa = PBXGroup;
 			children = (
-				321B026825DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */,
-				321B027F25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests */,
-				321B028A25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests */,
+				321B026825DFAD5E00001CD8 /* MyConnectionCheckerApp */,
+				321B027F25DFAD6100001CD8 /* MyConnectionCheckerAppTests */,
+				321B028A25DFAD6100001CD8 /* MyConnectionCheckerAppUITests */,
 				321B026725DFAD5E00001CD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		321B026725DFAD5E00001CD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				321B026625DFAD5E00001CD8 /* MyWifiConnectionCheckerApp.app */,
-				321B027C25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.xctest */,
-				321B028725DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.xctest */,
+				321B026625DFAD5E00001CD8 /* MyConnectionCheckerApp.app */,
+				321B027C25DFAD6100001CD8 /* MyConnectionCheckerAppTests.xctest */,
+				321B028725DFAD6100001CD8 /* MyConnectionCheckerAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		321B026825DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */ = {
+		321B026825DFAD5E00001CD8 /* MyConnectionCheckerApp */ = {
 			isa = PBXGroup;
 			children = (
 				321B026925DFAD5E00001CD8 /* AppDelegate.swift */,
@@ -107,7 +107,7 @@
 				321B027725DFAD6100001CD8 /* Info.plist */,
 				321B027125DFAD6100001CD8 /* Preview Content */,
 			);
-			path = MyWifiConnectionCheckerApp;
+			path = MyConnectionCheckerApp;
 			sourceTree = "<group>";
 		};
 		321B027125DFAD6100001CD8 /* Preview Content */ = {
@@ -118,30 +118,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		321B027F25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests */ = {
+		321B027F25DFAD6100001CD8 /* MyConnectionCheckerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				321B028025DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.swift */,
+				321B028025DFAD6100001CD8 /* MyConnectionCheckerAppTests.swift */,
 				321B028225DFAD6100001CD8 /* Info.plist */,
 			);
-			path = MyWifiConnectionCheckerAppTests;
+			path = MyConnectionCheckerAppTests;
 			sourceTree = "<group>";
 		};
-		321B028A25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests */ = {
+		321B028A25DFAD6100001CD8 /* MyConnectionCheckerAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				321B028B25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.swift */,
+				321B028B25DFAD6100001CD8 /* MyConnectionCheckerAppUITests.swift */,
 				321B028D25DFAD6100001CD8 /* Info.plist */,
 			);
-			path = MyWifiConnectionCheckerAppUITests;
+			path = MyConnectionCheckerAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		321B026525DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */ = {
+		321B026525DFAD5E00001CD8 /* MyConnectionCheckerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 321B029025DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerApp" */;
+			buildConfigurationList = 321B029025DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerApp" */;
 			buildPhases = (
 				321B026225DFAD5E00001CD8 /* Sources */,
 				321B026325DFAD5E00001CD8 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = MyWifiConnectionCheckerApp;
+			name = MyConnectionCheckerApp;
 			productName = MyWifiConnectionCheckerApp;
-			productReference = 321B026625DFAD5E00001CD8 /* MyWifiConnectionCheckerApp.app */;
+			productReference = 321B026625DFAD5E00001CD8 /* MyConnectionCheckerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		321B027B25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests */ = {
+		321B027B25DFAD6100001CD8 /* MyConnectionCheckerAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 321B029325DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerAppTests" */;
+			buildConfigurationList = 321B029325DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerAppTests" */;
 			buildPhases = (
 				321B027825DFAD6100001CD8 /* Sources */,
 				321B027925DFAD6100001CD8 /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				321B027E25DFAD6100001CD8 /* PBXTargetDependency */,
 			);
-			name = MyWifiConnectionCheckerAppTests;
+			name = MyConnectionCheckerAppTests;
 			productName = MyWifiConnectionCheckerAppTests;
-			productReference = 321B027C25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.xctest */;
+			productReference = 321B027C25DFAD6100001CD8 /* MyConnectionCheckerAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		321B028625DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests */ = {
+		321B028625DFAD6100001CD8 /* MyConnectionCheckerAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 321B029625DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerAppUITests" */;
+			buildConfigurationList = 321B029625DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerAppUITests" */;
 			buildPhases = (
 				321B028325DFAD6100001CD8 /* Sources */,
 				321B028425DFAD6100001CD8 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				321B028925DFAD6100001CD8 /* PBXTargetDependency */,
 			);
-			name = MyWifiConnectionCheckerAppUITests;
+			name = MyConnectionCheckerAppUITests;
 			productName = MyWifiConnectionCheckerAppUITests;
-			productReference = 321B028725DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.xctest */;
+			productReference = 321B028725DFAD6100001CD8 /* MyConnectionCheckerAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 321B026125DFAD5E00001CD8 /* Build configuration list for PBXProject "MyWifiConnectionCheckerApp" */;
+			buildConfigurationList = 321B026125DFAD5E00001CD8 /* Build configuration list for PBXProject "MyConnectionCheckerApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				321B026525DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */,
-				321B027B25DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests */,
-				321B028625DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests */,
+				321B026525DFAD5E00001CD8 /* MyConnectionCheckerApp */,
+				321B027B25DFAD6100001CD8 /* MyConnectionCheckerAppTests */,
+				321B028625DFAD6100001CD8 /* MyConnectionCheckerAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				321B028125DFAD6100001CD8 /* MyWifiConnectionCheckerAppTests.swift in Sources */,
+				321B028125DFAD6100001CD8 /* MyConnectionCheckerAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				321B028C25DFAD6100001CD8 /* MyWifiConnectionCheckerAppUITests.swift in Sources */,
+				321B028C25DFAD6100001CD8 /* MyConnectionCheckerAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		321B027E25DFAD6100001CD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 321B026525DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */;
+			target = 321B026525DFAD5E00001CD8 /* MyConnectionCheckerApp */;
 			targetProxy = 321B027D25DFAD6100001CD8 /* PBXContainerItemProxy */;
 		};
 		321B028925DFAD6100001CD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 321B026525DFAD5E00001CD8 /* MyWifiConnectionCheckerApp */;
+			target = 321B026525DFAD5E00001CD8 /* MyConnectionCheckerApp */;
 			targetProxy = 321B028825DFAD6100001CD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,14 +437,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyWifiConnectionCheckerApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyConnectionCheckerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FA7338A48;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyWifiConnectionCheckerApp/Info.plist;
+				INFOPLIST_FILE = MyConnectionCheckerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyWifiConnectionCheckerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyConnectionCheckerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,14 +458,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyWifiConnectionCheckerApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyConnectionCheckerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FA7338A48;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyWifiConnectionCheckerApp/Info.plist;
+				INFOPLIST_FILE = MyConnectionCheckerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyWifiConnectionCheckerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyConnectionCheckerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWifiConnectionCheckerApp.app/MyWifiConnectionCheckerApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyConnectionCheckerApp.app/MyConnectionCheckerApp";
 			};
 			name = Debug;
 		};
@@ -509,7 +511,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWifiConnectionCheckerApp.app/MyWifiConnectionCheckerApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyConnectionCheckerApp.app/MyConnectionCheckerApp";
 			};
 			name = Release;
 		};
@@ -554,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		321B026125DFAD5E00001CD8 /* Build configuration list for PBXProject "MyWifiConnectionCheckerApp" */ = {
+		321B026125DFAD5E00001CD8 /* Build configuration list for PBXProject "MyConnectionCheckerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				321B028E25DFAD6100001CD8 /* Debug */,
@@ -563,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		321B029025DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerApp" */ = {
+		321B029025DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				321B029125DFAD6100001CD8 /* Debug */,
@@ -572,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		321B029325DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerAppTests" */ = {
+		321B029325DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				321B029425DFAD6100001CD8 /* Debug */,
@@ -581,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		321B029625DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyWifiConnectionCheckerAppUITests" */ = {
+		321B029625DFAD6100001CD8 /* Build configuration list for PBXNativeTarget "MyConnectionCheckerAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				321B029725DFAD6100001CD8 /* Debug */,
